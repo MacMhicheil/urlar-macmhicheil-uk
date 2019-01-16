@@ -1,0 +1,85 @@
+/*
+    Theme Name: MacMhìcheil.uk
+    Theme URI: https://wordpress.org/
+    Author: Crìstean MacMhìcheil
+    Author URI: https://macmhicheil.uk
+    Description: Basic Bootstrap theme
+    Version: 1.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags: Bootstrap, Minimal, White, Blue
+    Text Domain: macmhicheil
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+  font-family: "Raleway";
+}
+
+.navbar .navbar-brand{
+    color: #ffffff;
+}
+
+.navbar a{
+    color: #ffffff;
+	padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: transparent;
+    color: #000000;
+}
+
+.dropdown-menu{
+	background-color: #007bff;
+}
+
+.container .row {
+    padding-top: 15px;
+}
+
+.menu-item, li {
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.page_item, li a{
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.post-list li{
+	list-style-type: disc;
+}
+
+a{
+  color: #007bff;
+}
+
+.avatar.avatar-125.photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.footer{
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    height: 60px;
+    padding: 5px 0px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #f3f3f3;
+}
